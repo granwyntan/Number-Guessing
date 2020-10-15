@@ -14,6 +14,10 @@ You will need to install an external module/dependency/library using the command
 <pre>
 <b>node</b> numberGuessing.js
 </pre>
+**or**
+<pre>
+<b>node</b> numberGuessing
+</pre>
 
 ## Swift
 No extra dependencies are requied, apart from Xcode or Swift installed from its official website
