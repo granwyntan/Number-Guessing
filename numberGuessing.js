@@ -7,7 +7,7 @@ function getRandomInt(min, max) {
 // function print(x){
 //   console.log(x);
 // }
-const print = console.log
+// const print = console.log
 
 var choices = [];
 
@@ -16,27 +16,27 @@ const prompt = require('prompt-sync')({sigint: true});
 var end = false;
 
 while (!end) {
-  // print('Only Positive Integers Accepted');
+  // console.log('Only Positive Integers Accepted');
   let rangeMin = prompt('Minimum Number (Default - 1): ');
   let rangeMax = prompt('Maximum Number (Default - 100): ');
 
   if (((isNaN(rangeMin) || isNaN(rangeMax)) || (isNaN(rangeMin) && isNaN(rangeMax))) || !rangeMax || !rangeMin) {
-    print('Either one or both numbers are invalid')
-    print('Invalid Number(s) set to default')
+    console.log('Either one or both numbers are invalid');
+    console.log('Invalid Number(s) set to default');
   }
 
   if (rangeMin == rangeMax) {
     rangeMin = null;
     rangeMax = null;
-    print('Maximum Number is equal to Minimum Number');
-    print('Minimum Number is equal to Maximum Number');
-    print('Numbers set to default');
+    console.log('Maximum Number is equal to Minimum Number');
+    console.log('Minimum Number is equal to Maximum Number');
+    console.log('Numbers set to default');
   } else if (rangeMin > rangeMax) {
     rangeMin = null;
     rangeMax = null;
-    print('Maximum Number is smaller than Minimum Number');
-    print('Minimum Number is greater than Maximum Number');
-    print('Numbers set to default');
+    console.log('Maximum Number is smaller than Minimum Number');
+    console.log('Minimum Number is greater than Maximum Number');
+    console.log('Numbers set to default');
   }
 
   if (!rangeMin || isNaN(rangeMin)) {
@@ -51,7 +51,7 @@ while (!end) {
   let numberToGuess = getRandomInt(rangeMin, rangeMax);
   // This variable is used to determine if the app should continue prompting the user for input
   let foundCorrectNumber = false;
-  // print(numberToGuess);
+  // console.log(numberToGuess);
 
   while (!foundCorrectNumber) {
     tries += 1;
@@ -62,10 +62,10 @@ while (!end) {
       // if (typeof Number(guess) === "number" || Number(guess) !== NaN || Number(guess) != NaN){
       if (!isNaN(Number(guess))) {
         guess = Number(guess);
-        // print(guess);
-        // print(Number(guess));
-        // print(choices);
-        // print(choices.includes(guess));
+        // console.log(guess);
+        // console.log(Number(guess));
+        // console.log(choices);
+        // console.log(choices.includes(guess));
         if (guess === numberToGuess || guess == numberToGuess) {
           console.log('Congrats, you got it!');
           foundCorrectNumber = true;
