@@ -22,8 +22,8 @@ while not end:
       print('Minimum Number is greater than Maximum Number')
       print('Numbers set to default')
   elif not rangeMin.lstrip("-").isnumeric()) or not rangeMax.lstrip("-").isnumeric() or (not rangeMax) or (not rangeMin):
-    print('Either one or both numbers are invalid')
-    print('Invalid Number(s) set to default')
+    print('Either one or both characters/inputs are invalid')
+    print('Invalid Character(s) set to default')
     
   if not rangeMin or not rangeMin.lstrip("-").isnumeric():
     rangeMin = 1
