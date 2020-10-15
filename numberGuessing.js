@@ -47,6 +47,7 @@ while (!end) {
   }
 
   var tries = 0;
+  // Random number from 1 - 10
   let numberToGuess = getRandomInt(rangeMin, rangeMax);
   // This variable is used to determine if the app should continue prompting the user for input
   let foundCorrectNumber = false;
@@ -55,7 +56,7 @@ while (!end) {
   while (!foundCorrectNumber) {
     tries += 1;
     // Get user input
-    let guess = prompt(`Guess a number from ${rangeMin} to ${rangeMax}: `);
+    var guess = prompt(`Guess a number from ${rangeMin} to ${rangeMax}: `);
     // Compare the guess to the secret answer and let the user know.
     if (guess) {
       // if (typeof Number(guess) === "number" || Number(guess) !== NaN || Number(guess) != NaN){
