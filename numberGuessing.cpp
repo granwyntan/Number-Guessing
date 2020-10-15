@@ -48,8 +48,6 @@ int main() {
         }
     }
 
-
-
     while(correctGuess != true || giveUp != true) {
         cout << "Guess the number!" << endl;
         cin >> userGuess;
