@@ -1,4 +1,4 @@
-# Number-Guessing
+# Number Guessing
 Number Guessing Games in Multiple Programming Languages
 ## Python
 You will need to import a built-in module in python to generate random numbers: `import random`
