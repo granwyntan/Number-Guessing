@@ -4,9 +4,10 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function print(x){
-  console.log(x);
-}
+// function print(x){
+//   console.log(x);
+// }
+const print = console.log
 
 var choices = [];
 
@@ -24,13 +25,6 @@ while (!end) {
     print('Invalid Number(s) set to default')
   }
 
-  if (!rangeMin || isNaN(rangeMin)) {
-    rangeMin = 1;
-  }
-  if (!rangeMax || isNaN(rangeMax)) {
-    rangeMax = 100;
-  }
-
   if (rangeMin == rangeMax) {
     rangeMin = null;
     rangeMax = null;
@@ -43,6 +37,13 @@ while (!end) {
     print('Maximum Number is smaller than Minimum Number');
     print('Minimum Number is greater than Maximum Number');
     print('Numbers set to default');
+  }
+
+  if (!rangeMin || isNaN(rangeMin)) {
+    rangeMin = 1;
+  }
+  if (!rangeMax || isNaN(rangeMax)) {
+    rangeMax = 100;
   }
 
   var tries = 0;
