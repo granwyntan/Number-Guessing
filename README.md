@@ -26,8 +26,16 @@ No extra dependencies are requied, apart from Xcode or Swift installed from its 
 <b>swift</b> numberGuessing.swift
 </pre>
 
+## C
+
 ## C#
+
+## C++
+
+## Java
 
 ## Kotlin
 
 ## Go
+
+## Rust
