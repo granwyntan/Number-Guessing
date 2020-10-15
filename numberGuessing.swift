@@ -22,8 +22,8 @@ while !end {
             print("Numbers set to default") 
         }
     } else if Int(rangeMinInput!) != nil || Int(rangeMaxInput!) != nil || rangeMinInput?.isEmpty == true || rangeMaxInput?.isEmpty == true { 
-        print("Either one or both numbers are invalid") 
-        print("Invalid Number(s) set to default") 
+        print("Either one or both characters/inputs are invalid")
+        print("Invalid Character(s) set to default")
     } 
     
     if let rangeMinInput = rangeMinInput { 
