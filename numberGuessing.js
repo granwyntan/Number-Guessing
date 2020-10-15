@@ -34,15 +34,15 @@ while (!end) {
       console.log('Minimum Number is greater than Maximum Number');
       console.log('Numbers set to default');
     }
-  } else if (isNaN(rangeMin) || isNaN(rangeMax) || !rangeMax || !rangeMin || rangeMin || /\S/.test(rangeMin) || /\S/.test(rangeMax)) {
+  } else if (isNaN(rangeMin) || isNaN(rangeMax) || !rangeMax || !rangeMin || rangeMin || !rangeMin.trim() || !rangeMin.trim()) {
     console.log('Either one or both characters/inputs are invalid');
     console.log('Invalid Character(s) set to default');
   }
 
-  if (!rangeMin || isNaN(rangeMin) || /\S/.test(rangeMin)) {
+  if (!rangeMin || isNaN(rangeMin) || !rangeMin.trim()) {
     rangeMin = 1;
   }
-  if (!rangeMax || isNaN(rangeMax) || /\S/.test(rangeMax)) {
+  if (!rangeMax || isNaN(rangeMax) || !rangeMax.trim()) {
     rangeMax = 100;
   }
 
@@ -59,12 +59,12 @@ while (!end) {
     var guess = prompt(`Guess a number from ${rangeMin} to ${rangeMax}: `);
     // Compare the guess to the secret answer and let the user know.
     if (guess) {
-      // if (typeof Number(guess) === "number" || Number(guess) !== NaN || Number(guess) != NaN){
-      if (!isNaN(Number(guess))) {
+      // if (typeof Number(guess) === "number" || Number(guess) !== NaN || Number(guess) != NaN){\
+      if (!isNaN(Number(guess)) && guess.trim().length != 0) {
         guess = Number(guess);
         // console.log(guess);
         // console.log(Number(guess));
-        // console.log(choices);
+        console.log(choices);
         // console.log(choices.includes(guess));
         if (guess === numberToGuess || guess == numberToGuess) {
           console.log('Congrats, you got it!');
