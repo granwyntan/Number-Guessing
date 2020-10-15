@@ -47,7 +47,6 @@ while (!end) {
   }
 
   var tries = 0;
-  // Random number from 1 - 10
   let numberToGuess = getRandomInt(rangeMin, rangeMax);
   // This variable is used to determine if the app should continue prompting the user for input
   let foundCorrectNumber = false;
