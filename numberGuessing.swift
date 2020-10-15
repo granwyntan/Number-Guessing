@@ -1,4 +1,3 @@
-import Foundation 
 var choices: [Int] = []
 var end = false 
 while !end { 
