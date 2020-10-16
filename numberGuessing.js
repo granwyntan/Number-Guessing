@@ -54,7 +54,7 @@ while (!end) {
   // console.log(numberToGuess);
 
   while (!foundCorrectNumber) {
-    tries += 1;
+    tries++;
     // Get user input
     var guess = prompt(`Guess a number from ${rangeMin} to ${rangeMax}: `);
     // Compare the guess to the secret answer and let the user know.
