@@ -20,7 +20,7 @@ while (!end) {
   let rangeMin = prompt('Minimum Number (Default - 1): ');
   let rangeMax = prompt('Maximum Number (Default - 100): ');
 
-  if (!isNaN(Number(rangeMin)) && !isNaN(Number(rangeMax)) && rangeMin && rangeMax){
+  if (!isNaN(Number(rangeMin)) && !isNaN(Number(rangeMax)) && rangeMin && rangeMax && rangeMin.trim() && rangeMax.trim()){
     if (rangeMin == rangeMax) {
       rangeMin = null;
       rangeMax = null;
@@ -33,8 +33,8 @@ while (!end) {
       console.log('Maximum Number is smaller than Minimum Number');
       console.log('Minimum Number is greater than Maximum Number');
       console.log('Numbers set to default');
-    }
-  } else if (isNaN(rangeMin) || isNaN(rangeMax) || !rangeMax || !rangeMin || rangeMin || !rangeMin.trim() || !rangeMin.trim()) {
+    } 
+  } else if (isNaN(rangeMin) || isNaN(rangeMax) || !rangeMax || !rangeMin || !rangeMin.trim() || !rangeMax.trim()) {
     console.log('Either one or both characters/inputs are invalid');
     console.log('Invalid Character(s) set to default');
   }
