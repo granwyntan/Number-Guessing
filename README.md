@@ -3,7 +3,7 @@ Number Guessing Games in Multiple Programming Languages
 ## Python
 You will need to import a built-in module in python to generate random numbers: `import random`. 
 <br>
-Before that, you would need [python](https://www.python.org/downloads/) on your machine.
+Before that, you would require [python](https://www.python.org/downloads/) on your machine.
 </pre>
 ### How to Run
 <pre>
