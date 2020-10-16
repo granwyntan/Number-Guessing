@@ -64,7 +64,7 @@ while (!end) {
         guess = Number(guess);
         // console.log(guess);
         // console.log(Number(guess));
-        console.log(choices);
+        // console.log(choices);
         // console.log(choices.includes(guess));
         if (guess === numberToGuess || guess == numberToGuess) {
           console.log('Congrats, you got it!');
