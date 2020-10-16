@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numberGuessing", "numberGuessing\numberGuessing.csproj", "{E7D4A6A6-D1C0-4AC3-960C-8DA86F62CDAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D4A6A6-D1C0-4AC3-960C-8DA86F62CDAE}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E7D4A6A6-D1C0-4AC3-960C-8DA86F62CDAE}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E7D4A6A6-D1C0-4AC3-960C-8DA86F62CDAE}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E7D4A6A6-D1C0-4AC3-960C-8DA86F62CDAE}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
