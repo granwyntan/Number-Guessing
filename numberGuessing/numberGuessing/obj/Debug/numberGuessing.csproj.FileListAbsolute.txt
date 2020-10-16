@@ -1,6 +1,0 @@
-/Users/granwyntan/Projects/numberGuessing/numberGuessing/obj/Debug/numberGuessing.csproj.CoreCompileInputs.cache
-/Users/granwyntan/Projects/numberGuessing/numberGuessing/bin/Debug/numberGuessing.exe
-/Users/granwyntan/Projects/numberGuessing/numberGuessing/bin/Debug/numberGuessing.pdb
-/Users/granwyntan/Projects/numberGuessing/numberGuessing/obj/Debug/numberGuessing.csprojAssemblyReference.cache
-/Users/granwyntan/Projects/numberGuessing/numberGuessing/obj/Debug/numberGuessing.exe
-/Users/granwyntan/Projects/numberGuessing/numberGuessing/obj/Debug/numberGuessing.pdb
