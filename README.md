@@ -35,7 +35,7 @@ No extra dependencies are requied, apart from [Xcode](https://developer.apple.co
 ## C
 
 ## C#
-You will need an IDE/Text Editor, Preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/), not to be confused with [Visual Studio Code](https://code.visualstudio.com/), which is also by Microsoft.
+You will need an IDE/Text Editor, preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/), not to be confused with [Visual Studio Code](https://code.visualstudio.com/), which is also by Microsoft.
 <br>
 Before compilation, the following will also need to be imported:
 ```
