@@ -1,5 +1,7 @@
 # Number Guessing
 Number Guessing Games in Multiple Programming Languages
+
+
 ## Python
 You will need to import a built-in module in python to generate random numbers: `import random`. 
 <br>
@@ -33,6 +35,28 @@ No extra dependencies are requied, apart from [Xcode](https://developer.apple.co
 ## C
 
 ## C#
+You will need an IDE/Text Editor, Preferably [Microsoft Visual Studio](https://visualstudio.microsoft.com/), not to be confused with [Visual Studio Code](https://code.visualstudio.com/), which is also by Microsoft.
+<br>
+Before compilation, the following will also need to be imported
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+```
+### How to Run
+In **Microsoft Visual Studio** *(recommended)*,
+<br>
+press the run/play button and a terminal/command prompt would pop up. 
+<br>
+<br>
+In **Another IDE** (e.g. Atom, Visual Studio Code) or directly from command line,
+<br>
+you may install relevant plugins and extensions, and initialise config files (VS Code), etc. and run using .NET Core, provided you have the required softwares downloaded.
+<br>
+Here are some resources in which you can refer to:
+- https://stackoverflow.com/questions/30150022/how-to-compile-c-sharp-in-microsofts-new-visual-studio-code
+- https://code.visualstudio.com/docs/languages/dotnet
+- https://code.visualstudio.com/docs/languages/csharp
 
 ## C++
 
